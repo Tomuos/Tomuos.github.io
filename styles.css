@@ -248,7 +248,7 @@ figcaption {
 
 /* responsive images width devided by height to get the aspect ratio */
 .img1 {
-  flex: 0.717;
+  flex: 0.8435897435;
 }
 .img2 {
   flex: 0.76025390625;
