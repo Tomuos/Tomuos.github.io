@@ -121,10 +121,6 @@ h1 {
   color: #e8dd09;
 }
 
-#image a:hover {
-  border: 1px solid ##e8dd09;
-}
-
 blockquote {
   font-style: italic;
   max-width: 545px;
@@ -248,7 +244,6 @@ figcaption {
 
 /* responsive images width devided by height to get the aspect ratio */
 .img1 {
-<<<<<<< HEAD
   flex: 0.75;
 }
 .img2 {
