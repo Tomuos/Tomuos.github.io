@@ -248,31 +248,31 @@ figcaption {
 
 /* responsive images width devided by height to get the aspect ratio */
 .img1 {
-  flex: 0.717;
+  flex: 0.75;
 }
 .img2 {
-  flex: 0.76025390625;
+  flex: 0.75;
 }
 .img3 {
-  flex: 0.7242128121606949;
+  flex: 0.75;
 }
 .img4 {
-  flex: 1.3333;
+  flex: 1.3;
 }
 .img5 {
-  flex: 0.7901023890784983;
+  flex: 0.75;
 }
 .img6 {
-  flex: 1.333333333333333;
+  flex: 1.3;
 }
 .img7 {
-  flex: 1.707317073170732;
+  flex: 1.3;
 }
 .img8 {
-  flex: 1.5003663003663;
+  flex: 1.3;
 }
 .img9 {
-  flex: 2;
+  flex: 0.75;
 }
 
 a:link {
