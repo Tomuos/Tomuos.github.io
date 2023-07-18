@@ -8,6 +8,14 @@
   .hero {
     max-width: 120rem;
   }
+  /* body {
+    background-image: url("/images/Larger\ Gotham\ city.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+  } */
 }
 
 /**************************/
@@ -19,7 +27,18 @@
     /* 9px / 16px  */
     font-size: 56.25%;
   }
+  body {
+    margin: 0 10%;
+  }
 }
+/* body {
+    background-image: url("/images/Gotham-background-1.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+  }
+} */
 
 /**************************/
 /* BELOW 944px (Tablets) */
@@ -32,12 +51,14 @@
   }
 
   body {
-    background-size: stretch;
-    background-repeat: no-repeat;
-    background-attachment: cover;
-    background-position: right center;
+    margin: 0 auto;
   }
 
+  #imgText-caption {
+    margin: 15px 0 5px 0;
+    font-size: 1.2em;
+    font-weight: 700;
+  }
   #main {
     border-radius: 5px;
   }
@@ -50,13 +71,13 @@
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2em;
     line-height: 1.2;
     color: #e8dd09;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.8em;
   }
 
   img {
@@ -68,9 +89,16 @@
   }
 
   .col-container {
+    display: flex;
+    margin: 2.5rem 0;
+    background-color: #2a3557;
+    border-radius: 1.6rem;
+    padding: 1.5rem;
+    align-content: center;
+    flex-wrap: nowrap;
     flex-direction: column;
-    max-width: 60%;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
   }
 
   footer {
@@ -86,6 +114,9 @@
   .heading-secondary {
     margin-bottom: 4.8rem;
   }
+  #imgText-caption {
+    font-size: 1.2em;
+  }
 }
 
 /**************************/
@@ -96,6 +127,11 @@
   #main {
     margin: 0;
   }
+
+  #imgText-caption {
+    font-size: 1em;
+  }
+
   #img-caption {
     font-size: 1.4rem;
   }
